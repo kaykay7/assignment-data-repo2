@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get('/')
 def home():
-    return {"message": "Hello World. This is the first commit"}
+    return {"message": "Hello World. This is the second commit."}
 
 if __name__ == "__main__":
     import uvicorn
